@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>One Piece | Adivinhe o Personagem</title>
+    <link rel="shortcut icon" type="imagex/png" href="https://seeklogo.com/images/M/mugiwara-logo-303FD55C54-seeklogo.com.png">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="Categorias-arcos.css">
+    <link rel="stylesheet" href="outro.css">
+    <script src="scriptArco.js"></script>
+    <script src="Outro.js"></script>
+
+</head>
+
+<body>
+   
+    <header class="header"><!--Cabeçalho-->
+        <h1  class="areaTítulo">Jogo de Adivinhação</h1>
+        <nav class="cabeçalho"> <!--Sumário da página, Inicio, Sobre mim, Contato-->
+            <ul>
+            <li><a href="pagina.php">Início</a></li>
+            <div class="dropdown">
+                <li><a href="categorias.html">Tópicos</a></li>
+                
+                <div class="dropdown-content">
+                    <ul> 
+                        <div class="subdropdown">
+                            <li><a href="mangá.html">Mangá</a></li>
+                            <div class="sub-content">
+                                <li><a href="Categorias-arcos.html">Arcos</a></li>
+                                <li><a href="influencia.html">Influência</a></li>
+                                <li><a href="publicação.html">Publicação</a></li>
+                            </div>
+                        </div>
+                        <div class="subdropdown">
+                            <li><a href="anime.html">Anime</a></li>
+                            <div class="sub-content">
+                                <li><a href="adaptacao.html">Adaptação</a></li>
+                                <li><a href="producao.html">Produção</a></li>
+                                <li><a href="trilhaSonora.html">Música</a></li>
+                            </div>
+                        </div>
+                        <li><a href="autor.html">Autor</a></li>
+                        <li><a href="categorias.html">Categorias</a></li>
+                    </ul>
+                </div>
+            </div>                
+            <li><a href="sobre.html">Sobre Mim</a></li>
+            <li><span class="author">Leonardo Molinaro</span></li>        
+        </ul>
+    </nav>
+    </header>
+    <main>
+        <article>
+             <button class="buttonBack" onclick="volta()">◀</button>
+            <div class="caixa_login">
+                <h2 class="area3">Adivinhe o Personagem</h3>
+                <div class="caixa_usuario">
+                    <div class="image-container">
+                        <select class="selectOutro" id="personagemEntrada" size="6">
+                            <optgroup label="Mugiwaras">
+                                <option>Luffy</option>
+                                <option>Zoro</option>
+                                <option>Usopp</option>
+                                <option>Nami</option>
+                                <option>Sanji</option>
+                                <option>Robin</option>
+                                <option>Chopper</option>
+                                <option>Franky</option>
+                                <option>Brook</option>
+                                <option>Jinbei</option>
+                            </optgroup>
+                            <optgroup label="Piratas">
+                                <option>Ace</option>
+                                <option>Arlong</option>
+                                <option>Barba Branca</option>
+                                <option>Barba Negra</option>
+                                <option>Big Mom</option>
+                                <option>Bonney</option>
+                                <option>Buggy</option>
+                                <option>Crocodile</option>
+                                <option>Doflamingo</option>
+                                <option>Fisher Tiger</option>
+                                <option>Gol D Roger</option>
+                                <option>Hancock</option>
+                                <option>Kaido</option>
+                                <option>Katakuri</option>
+                                <option>Kid</option>
+                                <option>Law</option>
+                                <option>Mihawk</option>
+                                <option>Oden</option>
+                                <option>Perona</option>
+                                <option>Rosinante</option>
+                                <option>Rayleigh</option>
+                                <option>Shanks</option>
+                                <option>Yamato</option>
+                            </optgroup>
+                            <optgroup label="Não Piratas">
+                                <option>Akainu</option>
+                                <option>Kizaru</option>
+                                <option>Kuzan</option>
+                                <option>Fujitora</option>
+                                <option>Garp</option>
+                                <option>Sengoku</option>
+                                <option>Smoker</option>
+                                <option>Koby</option>
+                                <option>Enel</option>
+                                <option>Sabo</option>
+                                <option>Kuma</option>
+                                <option>Vivi</option>
+                            </optgroup>
+                    </select>
+                    <label></label>
+                </div>
+                <h3 id="resultado"></h3>
+            </div>
+                <div id="imagens1"></div>
+                <button onclick="verificarPersonagem()" id="button" class="enviar">Verificar</button>
+                <button id="mudarPersonagem" class="enviar" type="button" style="display: none; " onclick="resetPersonagem()">Jogar Novamente</button>
+
+            </div>
+
+            <h1 id="TítuloArco"><a id="linkCor" class="area2">Personagens Válidos</a></h1>
+            <ul>
+                <div class="image-container">
+
+                <!-- Luffy -->
+                <img id="imagemTexto"  title="Luffy" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/51158316-fd7e-48ca-b5fe-8542e9dfe357/dbcd4ym-06297ac3-c040-4738-8e2a-05bfb4408fdf.png/v1/fill/w_640,h_512,strp/monkey_d__luffy_by_bodskih_dbcd4ym-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTEyIiwicGF0aCI6IlwvZlwvNTExNTgzMTYtZmQ3ZS00OGNhLWI1ZmUtODU0MmU5ZGZlMzU3XC9kYmNkNHltLTA2Mjk3YWMzLWMwNDAtNDczOC04ZTJhLTA1YmZiNDQwOGZkZi5wbmciLCJ3aWR0aCI6Ijw9NjQwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.xIX0FCInFwdS9H4qWJv3S3JYJdvNmyp6PRlA79HAchk" width="400">
+                
+                <!-- Zoro -->
+                <img id="imagemTexto" title="Zoro" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/51158316-fd7e-48ca-b5fe-8542e9dfe357/ddwjr3c-778a7715-6c72-4438-a726-5f11a5d99dfb.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzUxMTU4MzE2LWZkN2UtNDhjYS1iNWZlLTg1NDJlOWRmZTM1N1wvZGR3anIzYy03NzhhNzcxNS02YzcyLTQ0MzgtYTcyNi01ZjExYTVkOTlkZmIucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.QMt8s-nRwNhBCzs_b502UGb7v-MYzohR_EiFlt4hYnw" width="400">
+
+                <!-- Nami -->
+                <img id="imagemTexto" title="Nami" src="https://i.imgur.com/xUXeM74.png" width="400">
+                </div>
+
+                <div class="image-container">
+                
+                 <!-- Usopp -->   
+                <img id="imagemTexto" title="Usopp" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/51158316-fd7e-48ca-b5fe-8542e9dfe357/ddwjr39-932868f1-5d05-4e72-b25a-b30d9274435a.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzUxMTU4MzE2LWZkN2UtNDhjYS1iNWZlLTg1NDJlOWRmZTM1N1wvZGR3anIzOS05MzI4NjhmMS01ZDA1LTRlNzItYjI1YS1iMzBkOTI3NDQzNWEucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.S4xCwozAWWv6rveSmAtR0koZF0VsIuqXQeycY5s5Fhs" width="400">
+
+                    <!-- Sanji -->
+                <img id="imagemTexto" title="Sanji" src="https://i.imgur.com/RknUEfE.png" width="400">
+
+                    <!-- Chopper -->
+                <img id="imagemTexto" title="Chopper" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/51158316-fd7e-48ca-b5fe-8542e9dfe357/ddwjr2d-6523e21f-95ef-4c5e-9c5d-b635b865f21f.png/v1/fit/w_375,h_300/tony_tony_chopper_by_bodskih_ddwjr2d-375w.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTEyIiwicGF0aCI6IlwvZlwvNTExNTgzMTYtZmQ3ZS00OGNhLWI1ZmUtODU0MmU5ZGZlMzU3XC9kZHdqcjJkLTY1MjNlMjFmLTk1ZWYtNGM1ZS05YzVkLWI2MzViODY1ZjIxZi5wbmciLCJ3aWR0aCI6Ijw9NjQwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.lrD2OI6iEQOYQFgdBVgE4Up8fCbDpWwZFDoa7u1HwsI" width="400">
+                </div>
+
+                <div class="image-container">
+
+                    <!--Robin -->
+                <img id="imagemTexto" title="Robin" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e8ec609a-f5e5-4a17-8390-9f819fcd8e1b/ddvv0d0-5f045cc9-9a33-4f32-ad34-2f35cd6ba770.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2U4ZWM2MDlhLWY1ZTUtNGExNy04MzkwLTlmODE5ZmNkOGUxYlwvZGR2djBkMC01ZjA0NWNjOS05YTMzLTRmMzItYWQzNC0yZjM1Y2Q2YmE3NzAucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.ntUvEEa3s0VFpsAYK0vVtYOngepRKObBL8B4RS5xBOI" width="400">
+
+                <!-- Franky -->
+                <img id="imagemTexto" title="Franky" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/51158316-fd7e-48ca-b5fe-8542e9dfe357/ddwjr25-7e739728-0478-409d-a6df-7e5366dff426.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzUxMTU4MzE2LWZkN2UtNDhjYS1iNWZlLTg1NDJlOWRmZTM1N1wvZGR3anIyNS03ZTczOTcyOC0wNDc4LTQwOWQtYTZkZi03ZTUzNjZkZmY0MjYucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.IXWwjYROdmAJ9Jf8OHCSMbT8t85MtidD84dnBZSGABY" width="400">
+
+                <!-- Brook -->
+                <img id="imagemTexto" title="Brook" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/51158316-fd7e-48ca-b5fe-8542e9dfe357/dbcd4x9-0bc0b73b-2e76-410d-a1d8-a0881869ba81.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzUxMTU4MzE2LWZkN2UtNDhjYS1iNWZlLTg1NDJlOWRmZTM1N1wvZGJjZDR4OS0wYmMwYjczYi0yZTc2LTQxMGQtYTFkOC1hMDg4MTg2OWJhODEucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.N-Xk7iD4T6wRdeuWCeXhRSQcOY_uqI3iPAu14PowPoo" width="400">
+                </div>
+
+                <div class="image-container">
+
+                    <!-- Jinbei -->
+                <img id="imagemTexto" title="Jinbei" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/51158316-fd7e-48ca-b5fe-8542e9dfe357/dbcd1q6-b3fd9527-8ac0-4822-9b86-6f9c2078182e.png/v1/fill/w_640,h_512/jinbe_knight_of_the_sea_former_shichibukai_by_bodskih_dbcd1q6-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTEyIiwicGF0aCI6IlwvZlwvNTExNTgzMTYtZmQ3ZS00OGNhLWI1ZmUtODU0MmU5ZGZlMzU3XC9kYmNkMXE2LWIzZmQ5NTI3LThhYzAtNDgyMi05Yjg2LTZmOWMyMDc4MTgyZS5wbmciLCJ3aWR0aCI6Ijw9NjQwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.Uc9YF61K7vkZWlElAlpK1gtqTEQhRD76MpatzplAV7A" width="400">
+
+                <!-- Shanks -->
+                <img id="imagemTexto" title="Shanks" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e8ec609a-f5e5-4a17-8390-9f819fcd8e1b/dding2z-4569f2ea-550d-45f3-888e-8b594ee53571.png/v1/fill/w_640,h_512/shanks_by_kaizokujotei_dding2z-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTEyIiwicGF0aCI6IlwvZlwvZThlYzYwOWEtZjVlNS00YTE3LTgzOTAtOWY4MTlmY2Q4ZTFiXC9kZGluZzJ6LTQ1NjlmMmVhLTU1MGQtNDVmMy04ODhlLThiNTk0ZWU1MzU3MS5wbmciLCJ3aWR0aCI6Ijw9NjQwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.6_y_z64CKihADBUNR-cwuyBWgpy9f8BrPnddpKEcjwM" width="400">
+
+                <!-- Roger -->
+                <img id="imagemTexto" title="Gol D. Roger" src="https://64.media.tumblr.com/48962fd40e6552abac9418070ebe403f/e91d0ed11ef06293-6e/s640x960/df83e67635983e7dd9ff23e2118de3b7fbbca292.png" width="400">
+                
+                </div>
+
+                <div class="image-container">
+
+                    <!-- buggy-->
+                <img id="imagemTexto" title="Buggy" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/51158316-fd7e-48ca-b5fe-8542e9dfe357/deb7c0k-49e16c42-6bcf-43e0-bffe-f551bbb0f16e.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzUxMTU4MzE2LWZkN2UtNDhjYS1iNWZlLTg1NDJlOWRmZTM1N1wvZGViN2Mway00OWUxNmM0Mi02YmNmLTQzZTAtYmZmZS1mNTUxYmJiMGYxNmUucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.ZoDbHk4AwDDgpX5KOUqEkuCNqooMb12YajIqF6DAscI" width="400">
+
+                <!-- Ace -->
+                <img id="imagemTexto" title="Ace" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e8ec609a-f5e5-4a17-8390-9f819fcd8e1b/ddw4ezi-6454d246-60a6-4a7f-8c6f-22687cc890eb.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2U4ZWM2MDlhLWY1ZTUtNGExNy04MzkwLTlmODE5ZmNkOGUxYlwvZGR3NGV6aS02NDU0ZDI0Ni02MGE2LTRhN2YtOGM2Zi0yMjY4N2NjODkwZWIucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.n_8_NLw7VMcCGQl-g3L2fBclM9yyfEA6PiFmIraE5ac" width="400">
+
+                <!-- Sabo -->
+                <img id="imagemTexto" title="Sabo" src="https://i.imgur.com/LWyX3Dc.png" width="400">
+                
+                </div>
+
+                <div class="image-container">
+
+                    <!-- kuzan -->
+                <img id="imagemTexto" title="Kuzan" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e8ec609a-f5e5-4a17-8390-9f819fcd8e1b/ddoznio-a69c2a5b-8486-4cf8-8633-78ebb0f14d71.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2U4ZWM2MDlhLWY1ZTUtNGExNy04MzkwLTlmODE5ZmNkOGUxYlwvZGRvem5pby1hNjljMmE1Yi04NDg2LTRjZjgtODYzMy03OGViYjBmMTRkNzEucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.-DI-wdddT59TaFBInZoC4bftE6m9EQOGB-yStPTnaBA" width="400">
+
+                <!-- kizaru -->
+                <img id="imagemTexto" title="Kizaru" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e8ec609a-f5e5-4a17-8390-9f819fcd8e1b/ddwh5c5-5afcd933-aea2-44b2-94b2-d86ef19a9b4d.png/v1/fill/w_640,h_512/borsalino___kizaru___by_kaizokujotei_ddwh5c5-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTEyIiwicGF0aCI6IlwvZlwvZThlYzYwOWEtZjVlNS00YTE3LTgzOTAtOWY4MTlmY2Q4ZTFiXC9kZHdoNWM1LTVhZmNkOTMzLWFlYTItNDRiMi05NGIyLWQ4NmVmMTlhOWI0ZC5wbmciLCJ3aWR0aCI6Ijw9NjQwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.3wnzjJMTGcwjryl8nOsd8avThXIQB3M4G4tW4aUzz14" width="400">
+
+                <!-- akainu-->
+                <img id="imagemTexto" title="Akainu" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/51158316-fd7e-48ca-b5fe-8542e9dfe357/deaa5l4-4a80f30c-4f81-43b4-9b16-6531e166ac7b.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzUxMTU4MzE2LWZkN2UtNDhjYS1iNWZlLTg1NDJlOWRmZTM1N1wvZGVhYTVsNC00YTgwZjMwYy00ZjgxLTQzYjQtOWIxNi02NTMxZTE2NmFjN2IucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.eKZqR0Tk5u43uZh4dR9wj-dmTrTmDXi6VHQm6Pn6lfY" width="400">
+                
+                </div>
+
+                <div class="image-container">
+
+                    <!-- fujitora -->
+                <img id="imagemTexto" title="Fujitora" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/51158316-fd7e-48ca-b5fe-8542e9dfe357/ddf2y1t-8a2ed275-3551-426f-bcf7-dc669683adeb.png/v1/fill/w_640,h_512/issho_aka_admiral_fujitora_by_bodskih_ddf2y1t-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTEyIiwicGF0aCI6IlwvZlwvNTExNTgzMTYtZmQ3ZS00OGNhLWI1ZmUtODU0MmU5ZGZlMzU3XC9kZGYyeTF0LThhMmVkMjc1LTM1NTEtNDI2Zi1iY2Y3LWRjNjY5NjgzYWRlYi5wbmciLCJ3aWR0aCI6Ijw9NjQwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.KT43AIxu7FoIvBMeNR91eUcqan8OCltZwhe3ZdB7P24" width="400">
+
+                <!-- sengoku -->
+                <img id="imagemTexto" title="Sengoku" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/51158316-fd7e-48ca-b5fe-8542e9dfe357/dbcd40y-e73cb233-198b-4755-b1bc-8a3778f88ea6.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzUxMTU4MzE2LWZkN2UtNDhjYS1iNWZlLTg1NDJlOWRmZTM1N1wvZGJjZDQweS1lNzNjYjIzMy0xOThiLTQ3NTUtYjFiYy04YTM3NzhmODhlYTYucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.EiHzOYdGtCFxlQ5zihgOb5ka1d74fEEPb5ycluhGfq8" width="400">
+
+                <!-- garp -->
+                <img id="imagemTexto" title="Garp" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e8ec609a-f5e5-4a17-8390-9f819fcd8e1b/ddgzdn6-a5715c34-5683-46ed-a1a9-fbb156e4c0e8.png/v1/fill/w_640,h_512/monkey_d__garp_by_kaizokujotei_ddgzdn6-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTEyIiwicGF0aCI6IlwvZlwvZThlYzYwOWEtZjVlNS00YTE3LTgzOTAtOWY4MTlmY2Q4ZTFiXC9kZGd6ZG42LWE1NzE1YzM0LTU2ODMtNDZlZC1hMWE5LWZiYjE1NmU0YzBlOC5wbmciLCJ3aWR0aCI6Ijw9NjQwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.DzungrI69JFOPSHMLvNyKDTzoi4chI9u77wsdzUoDL0" width="400">
+                
+                </div>
+
+                <div class="image-container">
+
+                    <!-- crocodile -->
+                <img id="imagemTexto" title="Crocodile" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e8ec609a-f5e5-4a17-8390-9f819fcd8e1b/ddx0cfj-d592ea98-1687-4de6-b7d9-fe07cf85e525.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2U4ZWM2MDlhLWY1ZTUtNGExNy04MzkwLTlmODE5ZmNkOGUxYlwvZGR4MGNmai1kNTkyZWE5OC0xNjg3LTRkZTYtYjdkOS1mZTA3Y2Y4NWU1MjUucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.0B-CsCXhRDDZR_ezpDiaj5fVokyWyQYuPzV3ZDR5juI" width="400">
+
+                <!-- arlong -->
+                <img id="imagemTexto" title="Arlong" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/51158316-fd7e-48ca-b5fe-8542e9dfe357/dcv4cel-1b19d3e1-3b83-47f8-b521-36979b814a2e.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzUxMTU4MzE2LWZkN2UtNDhjYS1iNWZlLTg1NDJlOWRmZTM1N1wvZGN2NGNlbC0xYjE5ZDNlMS0zYjgzLTQ3ZjgtYjUyMS0zNjk3OWI4MTRhMmUucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.9l_PjS2Rouu920tZAe5aVtB02nchgsjrRKHFGz9zqCU" width="400">
+
+                <!-- enel -->
+                <img id="imagemTexto" title="Enel" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/51158316-fd7e-48ca-b5fe-8542e9dfe357/ddycnta-ba909917-f12b-408c-b853-3a49ade7d207.png/v1/fill/w_640,h_512/enel_god_of_skypiea_by_bodskih_ddycnta-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTEyIiwicGF0aCI6IlwvZlwvNTExNTgzMTYtZmQ3ZS00OGNhLWI1ZmUtODU0MmU5ZGZlMzU3XC9kZHljbnRhLWJhOTA5OTE3LWYxMmItNDA4Yy1iODUzLTNhNDlhZGU3ZDIwNy5wbmciLCJ3aWR0aCI6Ijw9NjQwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0._OocUrddmFnZI5aGDwJa4DS2cKzEYqKZdhEomq7W8Ng" width="400">
+                
+                </div>
+
+                <div class="image-container">
+
+                    <!-- doflamingo -->
+                <img id="imagemTexto" title="Doflamingo" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e8ec609a-f5e5-4a17-8390-9f819fcd8e1b/ddu6jqv-f9dbd0d2-86c4-4fb3-bac8-4530b0a23bba.png/v1/fill/w_640,h_512/donquixote_doflamingo_by_kaizokujotei_ddu6jqv-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTEyIiwicGF0aCI6IlwvZlwvZThlYzYwOWEtZjVlNS00YTE3LTgzOTAtOWY4MTlmY2Q4ZTFiXC9kZHU2anF2LWY5ZGJkMGQyLTg2YzQtNGZiMy1iYWM4LTQ1MzBiMGEyM2JiYS5wbmciLCJ3aWR0aCI6Ijw9NjQwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.4YmC_mDHQXvq8sZy0s9PQpbMP31eGniGBHu1DhqAA3M" width="400">
+
+                <!-- barba negra -->
+                <img id="imagemTexto" title="Barba Negra" src="https://i.pinimg.com/originals/eb/a3/9c/eba39ccbffddfb4deda9481b733e3235.png" width="400">
+
+                <!-- kaido -->
+                <img id="imagemTexto" title="Kaido" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/51158316-fd7e-48ca-b5fe-8542e9dfe357/dehdf41-8ef26b7c-c540-477c-b997-8b3cf5af4f62.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzUxMTU4MzE2LWZkN2UtNDhjYS1iNWZlLTg1NDJlOWRmZTM1N1wvZGVoZGY0MS04ZWYyNmI3Yy1jNTQwLTQ3N2MtYjk5Ny04YjNjZjVhZjRmNjIucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.V9LhNvaQ8eDrtUpfxYqbD1S8A-ur6j0iI-iRIVBnKcM" width="400">
+                
+                </div>
+                <div class="image-container">
+
+                    <!-- Barba branca -->
+                <img id="imagemTexto" title="Barba Branca" src="https://i.pinimg.com/originals/55/89/ad/5589ad3f03a97cef8dee44d9483c4115.png" width="400">
+
+                <!-- Law -->
+                <img id="imagemTexto" title="Law" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e8ec609a-f5e5-4a17-8390-9f819fcd8e1b/ddx2yjl-cec7a1b4-af6c-4a8d-8476-ad5733062c44.png/v1/fill/w_640,h_512/trafalgar_law_by_kaizokujotei_ddx2yjl-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTEyIiwicGF0aCI6IlwvZlwvZThlYzYwOWEtZjVlNS00YTE3LTgzOTAtOWY4MTlmY2Q4ZTFiXC9kZHgyeWpsLWNlYzdhMWI0LWFmNmMtNGE4ZC04NDc2LWFkNTczMzA2MmM0NC5wbmciLCJ3aWR0aCI6Ijw9NjQwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.DDOTNMlNmV7K6eKwibn_qOMEhSfDwRuGbWZBBaxlx5w" width="400">
+
+                <!-- kid -->
+                <img id="imagemTexto" title="Kid" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e8ec609a-f5e5-4a17-8390-9f819fcd8e1b/ddybxo1-1012fc83-00bd-43e7-bc87-43d32ab6caee.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2U4ZWM2MDlhLWY1ZTUtNGExNy04MzkwLTlmODE5ZmNkOGUxYlwvZGR5YnhvMS0xMDEyZmM4My0wMGJkLTQzZTctYmM4Ny00M2QzMmFiNmNhZWUucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.ZQRHn2aZDps0_U2v7IV9ILazjGxqg4937GA56l2QEY0" width="400">
+                
+                </div>
+                <div class="image-container">
+
+                    <!-- mihawk -->
+                <img id="imagemTexto" title="Mihawk" src="https://i.pinimg.com/originals/d1/a4/df/d1a4df7033e91f752b3eb7bea30263a8.png" width="400">
+
+                <!-- hancock -->
+                <img id="imagemTexto" title="Hancock" src="https://i.imgur.com/NRlsNd7.png" width="400">
+
+                <!-- kuma -->
+                <img id="imagemTexto" title="Bartolomew Kuma" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/51158316-fd7e-48ca-b5fe-8542e9dfe357/dcicvzn-5ee30794-650e-4c0b-8fc7-7ea01dc068c5.png/v1/fill/w_640,h_512/bartholomew_kuma_former_shichibukai_by_bodskih_dcicvzn-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTEyIiwicGF0aCI6IlwvZlwvNTExNTgzMTYtZmQ3ZS00OGNhLWI1ZmUtODU0MmU5ZGZlMzU3XC9kY2ljdnpuLTVlZTMwNzk0LTY1MGUtNGMwYi04ZmM3LTdlYTAxZGMwNjhjNS5wbmciLCJ3aWR0aCI6Ijw9NjQwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.gRbFrocRODm3BcG55UxxYlybNNaMt3BygHaXVOXMN60" width="400">
+                
+                </div>
+                <div class="image-container">
+
+                    <!-- Fisher Tiger -->
+                <img id="imagemTexto" title="Fisher Tiger" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e8ec609a-f5e5-4a17-8390-9f819fcd8e1b/ddvegz6-80a926ee-00b9-49c4-968d-0931c5ca37f7.png/v1/fill/w_640,h_512/fisher_tiger_by_kaizokujotei_ddvegz6-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTEyIiwicGF0aCI6IlwvZlwvZThlYzYwOWEtZjVlNS00YTE3LTgzOTAtOWY4MTlmY2Q4ZTFiXC9kZHZlZ3o2LTgwYTkyNmVlLTAwYjktNDljNC05NjhkLTA5MzFjNWNhMzdmNy5wbmciLCJ3aWR0aCI6Ijw9NjQwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.5gbq4z2sQ7PJcYf6qXd2Fwq0Uobqy5ni5VcMONCQpbM" width="400">
+
+                <!-- Vivi -->
+                <img id="imagemTexto" title="Vivi" src="https://cdn.donmai.us/original/48/06/4806b098fb920603c6eed22c096e69f2.png" width="400">
+
+                <!-- Rosinante -->
+                <img id="imagemTexto" title="Rosinante" src="https://pbs.twimg.com/media/FRLYSLoXwAA9ojN.png" width="400">
+                
+                </div>
+                <div class="image-container">
+
+                    <!-- Koby -->
+                <img id="imagemTexto" title="Koby" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/51158316-fd7e-48ca-b5fe-8542e9dfe357/dcl04j8-ce5afea8-c6ab-48cd-a1d1-b34fe1f50beb.png/v1/fill/w_640,h_512/coby_marine_captain_by_bodskih_dcl04j8-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTEyIiwicGF0aCI6IlwvZlwvNTExNTgzMTYtZmQ3ZS00OGNhLWI1ZmUtODU0MmU5ZGZlMzU3XC9kY2wwNGo4LWNlNWFmZWE4LWM2YWItNDhjZC1hMWQxLWIzNGZlMWY1MGJlYi5wbmciLCJ3aWR0aCI6Ijw9NjQwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.uaC1Yzt7XU2v3Ac9Ee-U9nJerIJBArrNhHkCPEMEwt4" width="400">
+
+                <!-- Smoker -->
+                <img id="imagemTexto" title="Smoker" src="https://i.imgur.com/yAKOh8f.png" width="400">
+
+                <!-- Rayleigh -->
+                <img id="imagemTexto" title="Rayleigh" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e8ec609a-f5e5-4a17-8390-9f819fcd8e1b/ddtf9pn-ee05b12e-e9fa-4840-8eae-adb32dc5e3a7.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2U4ZWM2MDlhLWY1ZTUtNGExNy04MzkwLTlmODE5ZmNkOGUxYlwvZGR0Zjlwbi1lZTA1YjEyZS1lOWZhLTQ4NDAtOGVhZS1hZGIzMmRjNWUzYTcucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.rdkZxsMpe3EDizTXymqLm6QI06zvn-6CkZuyRVnm1vk" width="400">
+                
+                </div>
+                <div class="image-container">
+
+                    <!-- Oden -->
+                <img id="imagemTexto" title="Oden" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/51158316-fd7e-48ca-b5fe-8542e9dfe357/df4940p-2515405a-5730-4169-aa89-a17fa03cd7f9.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzUxMTU4MzE2LWZkN2UtNDhjYS1iNWZlLTg1NDJlOWRmZTM1N1wvZGY0OTQwcC0yNTE1NDA1YS01NzMwLTQxNjktYWE4OS1hMTdmYTAzY2Q3ZjkucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.hM1UsQWBSUZvnDTkeEkr-Qj-OWVzJci38CPKwGGNjbg" width="400">
+
+                <!-- Perona -->
+                <img id="imagemTexto" title="Perona"  src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e8ec609a-f5e5-4a17-8390-9f819fcd8e1b/ddpbkuo-358706df-54dd-4a14-8e8b-41f920c8f9f7.png/v1/fill/w_640,h_512/perona_by_kaizokujotei_ddpbkuo-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTEyIiwicGF0aCI6IlwvZlwvZThlYzYwOWEtZjVlNS00YTE3LTgzOTAtOWY4MTlmY2Q4ZTFiXC9kZHBia3VvLTM1ODcwNmRmLTU0ZGQtNGExNC04ZThiLTQxZjkyMGM4ZjlmNy5wbmciLCJ3aWR0aCI6Ijw9NjQwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.tZp9T-15z4dbsWMJxj71nhxnMBJR4HV7gwMqbwHosuA" width="400">
+
+                <!-- Katakuri -->
+                <img id="imagemTexto" title="Katakuri" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e8ec609a-f5e5-4a17-8390-9f819fcd8e1b/ddj9olq-1f263461-b90a-4a3f-87b2-faa0b8927ab6.png/v1/fill/w_640,h_512/charlotte_katakuri_by_kaizokujotei_ddj9olq-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTEyIiwicGF0aCI6IlwvZlwvZThlYzYwOWEtZjVlNS00YTE3LTgzOTAtOWY4MTlmY2Q4ZTFiXC9kZGo5b2xxLTFmMjYzNDYxLWI5MGEtNGEzZi04N2IyLWZhYTBiODkyN2FiNi5wbmciLCJ3aWR0aCI6Ijw9NjQwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.6dewzotXX_fAfGgsK69-5UdyJyr-GF9uH0wcyhW1aKU" width="400">
+                
+                </div>
+                <div class="image-container">
+
+                    <!-- Big Mom -->
+                <img id="imagemTexto" title="Big Mom" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/51158316-fd7e-48ca-b5fe-8542e9dfe357/df90nug-93e5e489-dbdc-4c90-ade2-20866c128760.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzUxMTU4MzE2LWZkN2UtNDhjYS1iNWZlLTg1NDJlOWRmZTM1N1wvZGY5MG51Zy05M2U1ZTQ4OS1kYmRjLTRjOTAtYWRlMi0yMDg2NmMxMjg3NjAucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Frn_LQ3blcM2Ie8Sx8Xa7vLiJ9FQd6qSsgFW9yHoG1g" width="400">
+
+                <!-- bonney -->
+                <img id="imagemTexto" title="Bonney" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/51158316-fd7e-48ca-b5fe-8542e9dfe357/denpw6z-a29c5e00-b04b-46d2-b21b-3d202e400b34.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzUxMTU4MzE2LWZkN2UtNDhjYS1iNWZlLTg1NDJlOWRmZTM1N1wvZGVucHc2ei1hMjljNWUwMC1iMDRiLTQ2ZDItYjIxYi0zZDIwMmU0MDBiMzQucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.gSZWprFCxRRutsLWPjvU2Kc0MV71mJcd55MpgvesrIM" width="400">
+
+                <!-- Yamato -->
+                <img id="imagemTexto" title="Yamato" src="https://pbs.twimg.com/media/FpvvnisXsAcwdyX.png" width="400">
+                
+                </div>
+            </ul>   
+            
+        </article>
+    </main>
+    <footer>
+        <p>&copy;2023 <a id="copyright" href="sobre.html">Leonardo Molinaro</a></p>
+    </footer>
+</body>
+
+</html>
