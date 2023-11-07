@@ -1,5 +1,5 @@
 <?php 
-   /*
+   
     session_start();//inicia a sessao
     //print_r($_SESSION); mostra o login da pessoa que está na sessão
 
@@ -9,7 +9,7 @@
         unset($_SESSION['senha']);
         header('Location: login.php');
     }
-    $logado = $_SESSION['email']; */
+    $logado = $_SESSION['email']; 
 
     //Ele vai pra tela de login caso o usuário não esteja logado
 ?>
