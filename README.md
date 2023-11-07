@@ -13,10 +13,7 @@ Utilizei o XAMPP para conectar o banco de dados ao php (utilizei o phpmyadmin)
 
 ![image](https://github.com/LMolinaro01/OnePieceWebsite/assets/126402616/fa0f7f13-26e1-45b8-950b-88e239c9a042)
 
-![image](https://github.com/LMolinaro01/OnePieceWebsite/assets/126402616/c96f19a5-fd08-40b6-8cd4-c83cc9478b40)
-
 ![image](https://github.com/LMolinaro01/OnePieceWebsite/assets/126402616/baed88f5-762b-4dc3-91bf-4b5ef144a567)
-
 
 ![image](https://github.com/LMolinaro01/OnePieceWebsite/assets/126402616/c8fc7514-fbae-400b-9a3f-3bfc1e4b905c)
 
