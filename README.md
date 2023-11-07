@@ -1,9 +1,13 @@
 # OnePieceWebsite
 Fiz um site discutindo sobre One piece utilizando HTML, CSS, JavaScript e PHP
 
+Utilizei o XAMPP para conectar o banco de dados ao php (utilizei o phpmyadmin)
+
+![image](https://github.com/LMolinaro01/OnePieceWebsite/assets/126402616/fabbf6f7-dd7d-4e2c-92c5-695e9c7a961c)
+
 ![image](https://github.com/LMolinaro01/OnePieceWebsite/assets/126402616/006401d9-f2ef-4bab-b200-d0caa2fd8d10)
 
-Utilizei o XAMPP para conectar o banco de dados ao php (utilizei o phpmyadmin)
+![image](https://github.com/LMolinaro01/OnePieceWebsite/assets/126402616/72dd6621-7bbb-41e5-8d04-b596630b0fac)
 
 ![image](https://github.com/LMolinaro01/OnePieceWebsite/assets/126402616/c8fc7514-fbae-400b-9a3f-3bfc1e4b905c)
 
