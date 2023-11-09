@@ -1,7 +1,7 @@
 # OnePieceWebsite
 Fiz um site discutindo sobre One piece utilizando HTML, CSS, JavaScript e PHP
 
-O site aborda temas a respeito do mangá e o anime, falo sobre os arcos, trilha sonora, publicação, produção, sobre o autor e muito mais. Além disso, criei um jogo para adivinhar qual é o personagem miserioso
+O site aborda temas a respeito do mangá e o anime, falo sobre os arcos, trilha sonora, publicação, produção, sobre o autor e muito mais. Além disso, criei um jogo para adivinhar qual é o personagem mitserioso
 
 Utilizei o XAMPP para conectar o banco de dados ao php (utilizei o phpmyadmin)
 
