@@ -18,7 +18,7 @@ Para a implementação, foi utilizado o XAMPP para criar uma conexão com o banc
 
 1. Clone este repositório para o seu ambiente local.
 2. Configure o XAMPP e inicie os serviços Apache e MySQL.
-3. Importe o banco de dados fornecido usando o phpMyAdmin.
+3. Execute o arquivo PHP fornecido para criar o banco de dados usando o phpMyAdmin.
 4. Abra o site no seu navegador e explore os conteúdos relacionados ao mundo de One Piece!
 
 ## Contribuição
