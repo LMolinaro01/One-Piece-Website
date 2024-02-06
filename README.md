@@ -27,7 +27,7 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir um pull request 
 
 ## Licença
 
-Este projeto está licenciado sob a [MIT License](LICENSE).
+Este projeto está licenciado sob a [MIT License].
 
 
 ![image](https://github.com/LMolinaro01/OnePieceWebsite/assets/126402616/fabbf6f7-dd7d-4e2c-92c5-695e9c7a961c)
