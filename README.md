@@ -1,9 +1,34 @@
 # OnePieceWebsite
-Fiz um site discutindo sobre One piece utilizando HTML, CSS, JavaScript e PHP
 
-O site aborda temas a respeito do mangá e o anime, falo sobre os arcos, trilha sonora, publicação, produção, sobre o autor e muito mais. Além disso, criei um jogo para adivinhar qual é o personagem mitserioso
+Este é um site dedicado a discutir sobre o universo de One Piece, utilizando as tecnologias HTML, CSS, JavaScript e PHP.
 
-Utilizei o XAMPP para conectar o banco de dados ao php (utilizei o phpmyadmin)
+O site aborda uma variedade de temas relacionados ao mangá e ao anime, incluindo os arcos da história, trilha sonora, informações sobre a publicação e produção, detalhes sobre o autor e muito mais. Além disso, inclui um jogo interativo para adivinhar qual é o personagem misterioso da série.
+
+Para a implementação, foi utilizado o XAMPP para criar uma conexão com o banco de dados, utilizando o phpMyAdmin para gerenciar o banco de dados MySQL.
+
+## Tecnologias Utilizadas
+
+- HTML
+- CSS
+- JavaScript
+- PHP
+- XAMPP (para conectar o banco de dados ao PHP utilizando o phpMyAdmin)
+
+## Como Usar
+
+1. Clone este repositório para o seu ambiente local.
+2. Configure o XAMPP e inicie os serviços Apache e MySQL.
+3. Importe o banco de dados fornecido usando o phpMyAdmin.
+4. Abra o site no seu navegador e explore os conteúdos relacionados ao mundo de One Piece!
+
+## Contribuição
+
+Contribuições são bem-vindas! Sinta-se à vontade para abrir um pull request ou uma issue para discutir novas funcionalidades, melhorias ou correções de bugs.
+
+## Licença
+
+Este projeto está licenciado sob a [MIT License](LICENSE).
+
 
 ![image](https://github.com/LMolinaro01/OnePieceWebsite/assets/126402616/fabbf6f7-dd7d-4e2c-92c5-695e9c7a961c)
 
