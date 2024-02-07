@@ -35,34 +35,31 @@ Este projeto está licenciado sob a [MIT License].
 
 ![image](https://github.com/LMolinaro01/OnePieceWebsite/assets/126402616/d98d1ae0-923d-4842-943b-39c70631aa50)
 
-![image](https://imgur.com/a/tAZcMOi)
+![image](https://github.com/LMolinaro01/OnePieceWebsite/assets/126402616/bc4c3f65-98bf-4832-8987-afe11a0b3189)
+
+![image](https://github.com/LMolinaro01/OnePieceWebsite/assets/126402616/55be5dcc-3f00-46a8-affa-622af9406fb3)
+
+![image](https://github.com/LMolinaro01/OnePieceWebsite/assets/126402616/b973457f-1f55-4bd3-887e-155877c5eb1b)
+
+![image](https://github.com/LMolinaro01/OnePieceWebsite/assets/126402616/e26c7d31-5ef5-449d-9381-f8777e1606a1)
+
+![image](https://github.com/LMolinaro01/OnePieceWebsite/assets/126402616/0e779289-7575-41c6-8472-bc8a3fdd252c)
+
+![image](https://github.com/LMolinaro01/OnePieceWebsite/assets/126402616/d36df478-6427-4662-afc7-d72b7b1d227a)
+
+![image](https://github.com/LMolinaro01/OnePieceWebsite/assets/126402616/0298690c-12e6-4f32-b9f7-92997e49fd64)
+
+![image](https://github.com/LMolinaro01/OnePieceWebsite/assets/126402616/05e12d79-2269-4b85-93bc-d34b0acb7154)
+
+![image](https://github.com/LMolinaro01/OnePieceWebsite/assets/126402616/b3c140bc-3ef7-4e50-82ef-0b7cde78a903)
+
+![image](https://github.com/LMolinaro01/OnePieceWebsite/assets/126402616/1b211a47-8b9f-4b3f-8f8f-a09b89561ae2)
+
+![image](https://github.com/LMolinaro01/OnePieceWebsite/assets/126402616/9e17a860-b067-4a5f-8348-1556dfb4588e)
+
+![image](https://github.com/LMolinaro01/OnePieceWebsite/assets/126402616/fa6abfbf-7ff7-43ad-917d-8689d7eba152)
 
 
 
-![image](https://github.com/LMolinaro01/OnePieceWebsite/assets/126402616/fabbf6f7-dd7d-4e2c-92c5-695e9c7a961c)
 
-![image](https://github.com/LMolinaro01/OnePieceWebsite/assets/126402616/006401d9-f2ef-4bab-b200-d0caa2fd8d10)
-
-![image](https://github.com/LMolinaro01/OnePieceWebsite/assets/126402616/1594348b-4bfe-4f32-8a8d-3e7002782f16)
-
-![image](https://github.com/LMolinaro01/OnePieceWebsite/assets/126402616/fa0f7f13-26e1-45b8-950b-88e239c9a042)
-
-![image](https://github.com/LMolinaro01/OnePieceWebsite/assets/126402616/baed88f5-762b-4dc3-91bf-4b5ef144a567)
-
-![image](https://github.com/LMolinaro01/OnePieceWebsite/assets/126402616/c8fc7514-fbae-400b-9a3f-3bfc1e4b905c)
-
-![image](https://github.com/LMolinaro01/OnePieceWebsite/assets/126402616/7ff747c3-757d-4d7e-9cf0-58191dace7b8)
-
-![image](https://github.com/LMolinaro01/OnePieceWebsite/assets/126402616/553e98ab-3e25-4126-88b2-754e170e4c5d)
-
-![image](https://github.com/LMolinaro01/OnePieceWebsite/assets/126402616/55ffc839-a75d-4ac1-8cd0-66a63c6f8d0c)
-
-![image](https://github.com/LMolinaro01/OnePieceWebsite/assets/126402616/183b9ec6-c023-40bb-809f-76046b20aa1b)
-
-(Obs: O Cursor está passando em cima da palavra "Mangá)
-![image](https://github.com/LMolinaro01/OnePieceWebsite/assets/126402616/b9f155a0-2b9f-4daf-9570-ec88927bbc41)
-
-![image](https://github.com/LMolinaro01/OnePieceWebsite/assets/126402616/87c074b9-6b2f-4f2f-ac17-8ab41ad8c124)
-
-![image](https://github.com/LMolinaro01/OnePieceWebsite/assets/126402616/9cc795bf-d66b-4f87-9d8e-047ff9f12695)
 
