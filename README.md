@@ -49,6 +49,8 @@ Este projeto está licenciado sob a [MIT License].
 
 ![image](https://github.com/LMolinaro01/OnePieceWebsite/assets/126402616/0298690c-12e6-4f32-b9f7-92997e49fd64)
 
+![image](https://github.com/LMolinaro01/OnePieceWebsite/assets/126402616/fa6abfbf-7ff7-43ad-917d-8689d7eba152)
+
 ![image](https://github.com/LMolinaro01/OnePieceWebsite/assets/126402616/05e12d79-2269-4b85-93bc-d34b0acb7154)
 
 ![image](https://github.com/LMolinaro01/OnePieceWebsite/assets/126402616/b3c140bc-3ef7-4e50-82ef-0b7cde78a903)
@@ -57,7 +59,7 @@ Este projeto está licenciado sob a [MIT License].
 
 ![image](https://github.com/LMolinaro01/OnePieceWebsite/assets/126402616/9e17a860-b067-4a5f-8348-1556dfb4588e)
 
-![image](https://github.com/LMolinaro01/OnePieceWebsite/assets/126402616/fa6abfbf-7ff7-43ad-917d-8689d7eba152)
+
 
 
 
