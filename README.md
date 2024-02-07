@@ -29,13 +29,13 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir um pull request 
 
 Este projeto está licenciado sob a [MIT License].
 
+![image](https://github.com/LMolinaro01/OnePieceWebsite/assets/126402616/64c8bdcb-f8cd-461d-85c0-938857dff507)
+
 ![image](https://github.com/LMolinaro01/OnePieceWebsite/assets/126402616/a7166e72-7e6b-4142-aa56-d164cf11aa24)
 
 ![image](https://github.com/LMolinaro01/OnePieceWebsite/assets/126402616/a5f07677-2d0a-43cd-8fa5-cb605bc2a4f2)
 
 ![image](https://github.com/LMolinaro01/OnePieceWebsite/assets/126402616/d98d1ae0-923d-4842-943b-39c70631aa50)
-
-![image](https://github.com/LMolinaro01/OnePieceWebsite/assets/126402616/64c8bdcb-f8cd-461d-85c0-938857dff507)
 
 ![image](https://github.com/LMolinaro01/OnePieceWebsite/assets/126402616/55be5dcc-3f00-46a8-affa-622af9406fb3)
 
