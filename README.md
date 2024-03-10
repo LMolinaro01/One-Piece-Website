@@ -25,9 +25,6 @@ Para a implementação, foi utilizado o XAMPP para criar uma conexão com o banc
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir um pull request ou uma issue para discutir novas funcionalidades, melhorias ou correções de bugs.
 
-## Licença
-
-Este projeto está licenciado sob a [MIT License].
 
 ![image](https://github.com/LMolinaro01/OnePieceWebsite/assets/126402616/64c8bdcb-f8cd-461d-85c0-938857dff507)
 
