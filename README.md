@@ -12,7 +12,7 @@ Para a implementação, foi utilizado o XAMPP para criar uma conexão com o banc
 - CSS
 - JavaScript
 - PHP
-- XAMPP (para conectar o banco de dados ao PHP utilizando o phpMyAdmin)
+- XAMPP (Conecxão do Banco de Dados ao PHP utilizando o phpMyAdmin)
 
 ## Como Usar
 
