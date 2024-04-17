@@ -1,6 +1,6 @@
 # One Piece Website
 
-Este é um site dedicado a discutir sobre o universo de One Piece, utilizando as tecnologias HTML, CSS, JavaScript, PHP e XAMPP.
+Este é um site dedicado a discutir sobre o universo de One Piece, utilizando as tecnologias HTML, CSS, JavaScript, PHP e Integração com Banco de Dados.
 
 O site aborda uma variedade de temas relacionados ao mangá e ao anime, incluindo os arcos da história, trilha sonora, informações sobre a publicação e produção, detalhes sobre o autor e muito mais. Além disso, inclui um jogo interativo para adivinhar qual é o personagem misterioso da série, o usuário receberá 5 dicas até conseguir acertar o personagem correto.
 
