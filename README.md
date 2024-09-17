@@ -52,11 +52,12 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir um pull request 
 
 ![image](https://github.com/LMolinaro01/OnePieceWebsite/assets/126402616/b3c140bc-3ef7-4e50-82ef-0b7cde78a903)
 
-![image](https://github.com/LMolinaro01/OnePieceWebsite/assets/126402616/1b211a47-8b9f-4b3f-8f8f-a09b89561ae2)
-
 ![image](https://github.com/LMolinaro01/OnePieceWebsite/assets/126402616/9e17a860-b067-4a5f-8348-1556dfb4588e)
 
 
+## **Contato**
+
+Se você tiver dúvidas ou precisar de mais informações, sinta-se a vontade para entrar em [Contato](https://linktr.ee/leomolinarodev01)!
 
 
 
