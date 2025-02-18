@@ -1,0 +1,106 @@
+.caixa_login{
+    position:static;
+    width: 700px;
+    height: auto; 
+    padding: 40px;
+    margin: auto;
+    background: linear-gradient(#7294ced7,#4ea3d4);
+    box-sizing: border-box;
+    border-radius: 15px;
+    margin-top: 50px; 
+    margin-bottom: 50px; 
+    overflow: visible;
+}
+
+.caixa_login h2{
+    margin: 0 0 30px;
+    color: #fcff35;
+    text-align: center;
+
+}
+
+.enviar
+{
+    margin-bottom: 20px;
+}
+
+.caixa_login .caixa_usuario{
+    position:relative;
+}
+
+
+.caixa_login .mugiwara:hover{
+    transform:scale(1.08);
+    pointer-events: painted;
+}
+
+.caixa_login input{
+    width: 100%;
+    padding: 10px 0;
+    font-size: 18px;
+    color: rgb(247, 247, 247);
+    margin-bottom: 30px;
+    border:none;
+    border-radius: 5px;
+    border-bottom: 1px solid #fff;
+    outline:none;
+    background: transparent;
+}
+
+.caixa_login label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 18px;
+    color: #b0c5ff;
+    pointer-events: none;
+    transition: 0.2s;
+}
+
+.caixa_login input:focus ~ label,
+.caixa_login input:valid ~ label {
+    top: 5px;
+    left: 0px;
+    color: #ffffff00;
+    font-size: 14px;
+}
+
+.caixa_login .enviar, .caixa_login .esqueceu_senha {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0px;
+  font-size: 18px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: 0.2s;
+  letter-spacing: 3px;
+  color: #1e6baa;
+}
+
+.caixa_login .enviar:hover{ 
+    background: #34baf0;
+    color: #fff;
+    box-shadow: 0 0 5px #34baf0, 0 0 10px #34baf0;
+}
+
+.selectOutro
+{
+    width: 420px;
+    text-align: center;
+    background-color: #264069a6;
+}
+.selectOutro optgroup
+{
+    color: #a4ccff;
+    font-style: normal;
+}
+
+option{
+    font-style:italic;
+    text-align:left;
+    color:whitesmoke;
+}
