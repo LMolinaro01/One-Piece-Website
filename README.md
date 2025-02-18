@@ -25,6 +25,15 @@ Para a implementação, foi utilizado o XAMPP para criar uma conexão com o banc
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir um pull request ou uma issue para discutir novas funcionalidades, melhorias ou correções de bugs.
 
+## **Contato**
+
+Se você tiver dúvidas ou precisar de mais informações, sinta-se a vontade para entrar em [Contato](https://linktr.ee/leomolinarodev01)!
+
+## **Portifólio**
+
+https://tinyurl.com/5dpr33pv
+
+
 ## Integração com Banco de Dados
 
 https://github.com/user-attachments/assets/dcb61d4a-3fd1-427f-8942-f26a6eeb7f6f
@@ -58,13 +67,6 @@ https://github.com/user-attachments/assets/0d0407fe-7019-4972-9cca-91bf721442aa
 ![image](https://github.com/LMolinaro01/OnePieceWebsite/assets/126402616/9e17a860-b067-4a5f-8348-1556dfb4588e)
 
 
-## **Contato**
-
-Se você tiver dúvidas ou precisar de mais informações, sinta-se a vontade para entrar em [Contato](https://linktr.ee/leomolinarodev01)!
-
-## **Portifólio**
-
-https://tinyurl.com/5dpr33pv
 
 
 
